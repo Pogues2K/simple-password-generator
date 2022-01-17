@@ -35,7 +35,7 @@ for sym in range(0, nr_symbols + 1):
 random.shuffle(password_list)  # This shuffles the password
 
 
-password = ""  # This convers the password to string
+password = ""  # This converts the password to string
 for character in password_list:
     password += character
 print(f"Your brand new password is: {password}")
